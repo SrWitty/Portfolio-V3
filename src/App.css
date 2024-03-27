@@ -1,0 +1,114 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root{
+    /* ===== Colors ===== */
+    --body-color: #d6dff8;
+    --sidebar-color: #c9c5f7;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+    --text1-color:#695CFE;
+    --text2-color:#c0bcee;
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+body{
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+}
+::selection{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.navbar-brand {
+    font-size: 1.5rem; 
+}
+
+.navbar-toggler {
+    border: none; 
+    transition: transform 0.3s ease; 
+}
+
+.navbar-toggler.collapsed {
+    transform: rotate(360deg); 
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff; 
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #695CFE; 
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.project-card .card-text .text-primary:hover {
+    color: #695CFE; 
+}
+.navbar-brand:hover {
+    background-color: #695CFE; 
+    padding: 0.5rem 1rem; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-item {
+    animation: slideIn 0.5s ease forwards;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.skill-card {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.skill-card:hover {
+    transform: scale(1.05); 
+}
+
+.skill-card .card-body .card-title {
+    color: #000; 
+}
+
+.skill-card .card-body .card-title:hover {
+    color: #695CFE; 
+}
+
+.skills-title {
+    transition: color 0.3s ease-in-out; 
+    cursor: pointer; 
+}
+
+.skills-title:hover {
+    color: #695CFE; 
+    cursor: pointer;  
+}
+.hoverable:hover {
+    border-color: #695CFE;
+}
