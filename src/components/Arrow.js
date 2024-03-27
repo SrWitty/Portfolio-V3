@@ -13,10 +13,10 @@ const Arrow = () => {
   };
 
   const handleScroll = () => {
-    if (window.pageYOffset > 300) {
+    if (window.pageYOffset > 350) {
       setIsVisible(true);
     } else {
-      setIsVisible(true); // Fixed a typo here
+      setIsVisible(false);
     }
   };
 

@@ -26,7 +26,31 @@ body{
     color: #fff;
 }
 .navbar-brand {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; 
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    background-color: #fae6ff; 
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler-icon {
+        color: #fff; 
+    }
 }
 
 .navbar-toggler {
@@ -59,12 +83,16 @@ body{
 .project-card .card-text .text-primary:hover {
     color: #695CFE; 
 }
-.navbar-brand:hover {
-    background-color: #695CFE; 
-    padding: 0.5rem 1rem; 
-    border-radius: 5px; 
-    transition: background-color 0.3s ease; 
+.navbar-brand {
+    transition: background-color 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
 }
+
+.navbar-brand:hover {
+    background-color: #695CFE;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
 @keyframes slideIn {
     from {
         opacity: 0;
@@ -92,12 +120,38 @@ body{
     transform: scale(1.05); 
 }
 
-.skill-card .card-body .card-title {
-    color: #000; 
+.skill-card {
+    border: none; 
+    background-color: #fff; 
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease; 
 }
 
-.skill-card .card-body .card-title:hover {
-    color: #695CFE; 
+.skill-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.5rem; 
+}
+
+.card-body {
+    padding: 1.5rem; 
+}
+
+.card-body ul {
+    margin-top: 1rem; 
+}
+
+.card-body ul li {
+    color: #555; 
+    font-size: 1.2rem; 
+    margin-bottom: 0.5rem; 
+}
+
+.card-body ul li:last-child {
+    margin-bottom: 0;
 }
 
 .skills-title {
@@ -112,3 +166,70 @@ body{
 .hoverable:hover {
     border-color: #695CFE;
 }
+
+
+.social-link {
+    display: inline-block;
+    margin-right: 20px;
+    color: #000;
+    font-size: 3.5rem;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-5px); 
+    color: #695CFE; 
+}
+.about-title {
+    color: #f8422a; 
+    font-weight: bold; 
+}
+
+.about-text {
+    color: #333; 
+    font-size: 1.1rem; 
+    margin-bottom: 1.5rem; 
+}
+
+.hoverable:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.blog-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #dee2e6; 
+    border-radius: 8px; 
+}
+
+.blog-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.blog-card .card-body {
+    padding: 20px; 
+}
+.footer {
+    background-color: #d6dff8;
+    color: #fff; 
+    padding: 20px 0;
+    border-top: 1px solid #fff; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(1.5); 
+    }
+    to {
+        opacity: 1;
+        transform: scale(1); 
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+

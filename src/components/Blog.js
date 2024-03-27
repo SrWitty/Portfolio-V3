@@ -1,6 +1,7 @@
 // Blog.js
 import React from 'react';
 
+
 const Blog = () => {
     return (
         <section id="blog" className="py-5">
@@ -24,7 +25,7 @@ const Blog = () => {
 
 const BlogCard = ({ title, author, description }) => {
     return (
-        <div className="card shadow-sm project-card animate__animated animate__fadeInUp">
+        <div className="card shadow-sm blog-card animate__animated animate__fadeInUp">
             <div className="card-body">
                 <h3 className="card-title skills-title">{title}</h3>
                 <p className="card-text"><i className="fa fa-check-circle text-success" aria-hidden="true"></i> <span className="text-primary">{author}</span></p>

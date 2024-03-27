@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
@@ -11,6 +11,10 @@ import Arrow from './components/Arrow';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    document.body.classList.add('fadeIn');
+  }, []);
+
   return (
     <Router basename="/"> 
       <div className="App dark bg-gray-900 text-white">

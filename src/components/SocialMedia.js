@@ -6,17 +6,17 @@ const SocialMedia = () => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-6 text-center">
-                        <a href="https://discord.com/users/1091118468155314306" className="text-dark mb-4 icon-link animate__animated animate__fadeInLeft"  target="_blank" style={{ marginRight: '20px' }}> {/* Added animation classes */}
-                            <i className="fab fa-discord" style={{ fontSize: '3.5rem' }}></i> {/* Decreased icon size */}
+                        <a target="_blank" rel="noreferrer" href="https://discord.com/users/1091118468155314306" className="social-link mb-4 animate__animated animate__fadeInLeft">
+                            <i className="fab fa-discord"></i>
                         </a>
-                        <a href="https://twitter.com/iim7md11_" className="text-dark mb-4 icon-link animate__animated animate__fadeInUp" target="_blank" style={{ marginRight: '20px' }} > {/* Added animation classes */}
-                            <i className="fab fa-xing-square" style={{ fontSize: '3.5rem' }}></i> {/* Decreased icon size */}
+                        <a target="_blank" rel="noreferrer" href="https://twitter.com/iim7md11_" className="social-link mb-4 animate__animated animate__fadeInUp">
+                            <i className="fab fa-twitter"></i>
                         </a>
-                        <a href="https://github.com/iim7md11" className="text-dark mb-4 icon-link animate__animated animate__fadeInRight" target="_blank" style={{ marginRight: '20px' }}> {/* Added animation classes */}
-                            <i className="fab fa-github-square" style={{ fontSize: '3.5rem' }}></i> {/* Decreased icon size */}
+                        <a target="_blank" rel="noreferrer" href="https://github.com/iim7md11" className="social-link mb-4 animate__animated animate__fadeInRight">
+                            <i className="fab fa-github"></i>
                         </a>
-                        <a href="https://www.instagram.com/iim7md11_/" className="text-dark mb-4 icon-link animate__animated animate__fadeInDown"> {/* Added animation classes */}
-                            <i className="fab fa-instagram-square" target="_blank" style={{ fontSize: '3.5rem' }} ></i> {/* Decreased icon size */}
+                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/iim7md11_/" className="social-link mb-4 animate__animated animate__fadeInDown">
+                            <i className="fab fa-instagram"></i>
                         </a>
                     </div>
                 </div>

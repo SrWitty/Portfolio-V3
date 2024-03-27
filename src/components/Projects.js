@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
-import { faCube } from '@fortawesome/free-solid-svg-icons'; 
+import { faGlobe, faCube } from '@fortawesome/free-solid-svg-icons';
 
 const Projects = () => {
     return (
