@@ -16,7 +16,7 @@ const SocialMedia = () => {
                             <i className="fab fa-github-square" style={{ fontSize: '3.5rem' }}></i> {/* Decreased icon size */}
                         </a>
                         <a href="https://www.instagram.com/iim7md11_/" className="text-dark mb-4 icon-link animate__animated animate__fadeInDown"> {/* Added animation classes */}
-                            <i className="fab fa-instagram-square" style={{ fontSize: '3.5rem' }} target="_blank" ></i> {/* Decreased icon size */}
+                            <i className="fab fa-instagram-square" target="_blank" style={{ fontSize: '3.5rem' }} ></i> {/* Decreased icon size */}
                         </a>
                     </div>
                 </div>
