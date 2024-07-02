@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! This project is an upgraded version of the original personal portfolio, now built using React.js. This second version includes several new features, updates to the design, additional pages, and refined color schemes.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+- **React.js**: The entire website is built using React.js, providing a more dynamic and interactive user experience.
+- **React Spring**: Used for creating smooth animations throughout the website.
+- **React Router**: Implemented to enable navigation between different pages within the React application.
+- **Bootstrap**: Used for styling and creating a responsive layout.
+- **FontAwesome**: Icons from FontAwesome are utilized for visual elements.
+- **Node.js and npm**: Used for managing and installing project dependencies.
 
-### `npm start`
+## Features and Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Home
+The home page provides an introduction to the website and its purpose.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Skills
+This section showcases my technical skills, including proficiency in HTML, CSS, Bootstrap, JavaScript, React.js, Node.js, and more. Each skill is represented with an animated progress bar.
 
-### `npm test`
+### 3. Projects
+Explore a curated selection of my projects, each accompanied by brief descriptions and details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4. Social Media
+Find links to my various social media profiles, including Instagram, Threads, and Discord. Connect with me, follow updates, or reach out through these platforms.
 
-### `npm run build`
+### 7. Contact
+A dedicated page providing a contact form for inquiries, collaborations, or any other communication. You can also reach out to me directly through social media.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Updated Color Scheme
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The color scheme of the website has been refined for a more modern and cohesive look. The primary background color is now a deep blue (#001f3f), providing a sleek and professional appearance.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Social Media Links
 
-### `npm run eject`
+Connect with me on various social media platforms:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Discord](https://discord.com/users/1091118468155314306)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feel free to follow, connect, or reach out to me through these platforms.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+For any inquiries, collaborations, or if you just want to say hello, you can reach me through the contact form on the website or directly through my social media channels.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Credits
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The original website design and structure were based on the template created by iiShadow. This version has been extended and customized by iiShadow to incorporate new features, pages, color schemes, and a modernized look.
 
-### Code Splitting
+If you have any questions, feedback, or would like to collaborate on a project, feel free to reach out through any of the provided social media links.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Thank you for visiting my portfolio!**
